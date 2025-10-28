@@ -1,10 +1,7 @@
 # Buyer–Seller Market Simulation in MATLAB
 
-This project models a simplified market with 5 buyers and 5 sellers interacting over 10 trading rounds.  
-Trades occur when a buyer’s maximum willingness to pay exceeds a seller’s asking price.  
-The simulation tracks profit and trade volume per round and visualises the outcomes.
+This simulation models interactions between buyers and sellers over 10 rounds, calculating trade volumes and profits under randomized pricing. It demonstrates algorithmic modelling of market dynamics and supports analysis of economic issues such as inequality, market efficiency, and labour bargaining power; all of which are relevant to public policy functions in the UK (e.g., labour market analysis at the Office for National Statistics & the HM Revenue & Customs).
 
-This work demonstrates practical application of **computational economics**, **market efficiency**, and **algorithmic decision rules** — relevant to UK public policy areas such as inequality, labour markets, and financial modelling.
 
 ---
 
@@ -39,12 +36,3 @@ Outputs:
 - `tot_profit_per_rnd`: Profit by round
 - `tot_items_per_rnd`: Quantity traded by round
 - Figures showing market outcomes
-
----
-
-## How to Run
-
-Requires **MATLAB R2020+**.
-
-```matlab
-[profits, totProfit, totItems] = buyerSellerMarketSim();
