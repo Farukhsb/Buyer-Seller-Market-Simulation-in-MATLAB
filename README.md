@@ -8,7 +8,7 @@ This work demonstrates practical application of **computational economics**, **m
 
 ---
 
-## 📌 Key Features
+## Key Features
 
 - Randomised price generation for buyers and sellers
 - Profit calculation for each matched trade
@@ -20,7 +20,7 @@ This work demonstrates practical application of **computational economics**, **m
 
 ---
 
-## 🧠 Economic Insight
+## Economic Insight
 
 This project can support policy analysis in areas such as:
 
@@ -42,7 +42,7 @@ Outputs:
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 Requires **MATLAB R2020+**.
 
